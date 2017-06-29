@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/bootswatch.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="well ">
+            <form class="form-horizontal" method="post" action="createProfile">
+                <fieldset>
+                    <legend>Create Profile</legend>
+                    <div class="form-group">
+                        <label for="name" class="col-lg-2 control-label">Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName" class="col-lg-2 control-label">Last Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="linkedin" class="col-lg-2 control-label">LinkedIn Profile</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="linkedin" name="linkedin" placeholder="LinkedIn Profile">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="intro" class="col-lg-2 control-label">Introduction</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" name="intro" id="intro"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="intro" class="col-lg-2 control-label">Company</label>
+                        <div class="col-lg-10">
+                            <input class="form-control" type="text" name="intro" id="intro"></input>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+    </div>
+</div>
+</body>
+</html>

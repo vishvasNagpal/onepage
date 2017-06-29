@@ -1,0 +1,22 @@
+<xml-routes>
+    <route>
+        <route-name>index</route-name>
+        <route-url>/</route-url>
+        <route-class>/router/HomeRouter</route-class>
+    </route>
+    <route>
+        <route-name>userInfo</route-name>
+        <route-url>/userInfo</route-url>
+        <route-class>/router/UserInfoRouter</route-class>
+    </route>
+    <route>
+        <route-name>user</route-name>
+        <route-url>/user/:userName</route-url>
+        <route-class>/router/UserRouter</route-class>
+    </route>
+    <route>
+        <route-name>addUser</route-name>
+        <route-url>/createProfile</route-url>
+        <route-class>/router/AddUserRouter</route-class>
+    </route>
+</xml-routes>
